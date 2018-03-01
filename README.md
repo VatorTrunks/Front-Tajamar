@@ -1,2 +1,3 @@
-# Front-Tajamar
-Ejercicios del curso Web FrontEnd Tajamar 2018
+# FrontTajamar
+Ejercicios del curso Web FrontEnd
+ Tajamar <strong>2018<strong>
