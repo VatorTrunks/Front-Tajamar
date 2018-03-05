@@ -1,0 +1,27 @@
+
+@import "extras.css"
+
+/* ESPECIFICIDAD 
+
+a- en Linea
+b- id
+c- class
+d- etiquetas
+
+a.b.c.d
+
+
+
+*/
+
+/*selector mediante id :  NO SE USA*/
+#p1 {color: chartreuse}
+/* Selector meddiante class : los mas usados
+ESPECIFICIDAD: 0.0.1.0 */
+.p1 {color:aliceblue}
+
+.p2 {color:blue}
+/* Selector mediante etiquetas 
+ESPECIFICIDAD: 0.0.0.1
+*/
+p {color: brown}
