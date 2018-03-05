@@ -1,0 +1,19 @@
+.p1 {color: chocolate}
+section::before {
+content: "Empieza lo bueno";
+color: salmon
+}
+
+
+
+section::after {
+content: "Termina lo bueno";
+color: olive
+
+}
+
+
+section p::before {
+    counter-incrment: section;
+    content: counter(section)".";
+}
