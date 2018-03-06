@@ -1,7 +1,5 @@
-header p {color: maroon; font-size: 1.5px font-weight: bold; }
-footer p {color:navy}
-aside a:link {color: lime}
-aside a:visited {color: crimson}
-footer:hover p.derechos{
-    font-size:3rem}
+*, 
+*::before, *::after, 
+*:before, *:after { 
+box-sizing : border-box;
 }
