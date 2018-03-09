@@ -28,3 +28,37 @@ box-sizing : border-box;
     margin-bottom:2rem;
 }
 p {width: 50%}
+
+th {padding: 2rem;
+}
+td 
+{
+    text-align: right;
+    padding-right: 1rem;}
+    th,td{border:.1rem solid;}
+    
+    table:hover {
+border-collapse: separate;
+border-spacing: 0.7rem;
+}
+table{empty-cells: hide;
+border-collapse:collapse;
+    }
+    
+        table.t1 td,
+        table.t1 th{
+            border:.1rem solid;
+            padding:.3rem;}
+
+            table.t1 td:nth-of-type(odd){
+                background-color: green;
+            }
+
+table.t1 td:nth-of-type(even){
+    background-color:purple;
+}
+aside {
+    float: none
+}
+
+        }
