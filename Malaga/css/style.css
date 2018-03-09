@@ -3,7 +3,9 @@
 *:before, *:after { 
 box-sizing : border-box;
 }
-
+body{
+    background-color: thistle;
+}
 
 
     header h1 {
@@ -19,7 +21,7 @@ box-sizing : border-box;
     ul{list-style-type: square;}
         
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1080px;
     min-width: 480px;
     margin-left: auto;
@@ -27,7 +29,7 @@ box-sizing : border-box;
     margin-top: 2rem;
     margin-bottom:2rem;
 }
-p {width: 50%}
+p {width: 80%}
 
 th {padding: 2rem;
 }
@@ -56,9 +58,26 @@ border-collapse:collapse;
 
 table.t1 td:nth-of-type(even){
     background-color:purple;
+    
 }
-aside {
-    float: none
+.div {
+    width:50%;
+    margin:0;
+    padding:0;
+    }
+    img {width:100%}
+    
+
+}
+
+figure 
+     {width:50%;
+        margin:0;
+        padding:0;
+        }
+        video {width:100%}
+
 }
 
         }
+        
