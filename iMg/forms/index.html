@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    .control-group {
+        padding: 0.4
+    }
+
+    control-group label {
+        display: inline-block;
+        width: 20%;
+        min-width: 10rem;
+
+    }
+
+    control-group input {
+        width: 40;
+        min-width: 10rem;
+    }
+
+    input:focus {
+        border-color: chartreuse;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>
+            Ejemplo de formulario
+        </h1>
+    </header>
+    <main>
+        <form action="" method="GET">
+
+            <fieldset>
+                <legend>
+                    Datos personales</legend>
+                <div class="control-group">
+                    <label for="Nombre"> Escribe tu nombre </label>
+                    <input type="text" name="Nombre_user" id="Nombre" maxlength="20" required minlength="2"> 
+                </div>
+                <div class="control-group">
+                    <label for="Nombre"> Escribe tu apellido </label>
+                    <input type="text" name="Apellido_user" id="Apellido" placeholder="Escribe si puedes tus dos apellidos" required>
+                </div>
+                <div class="control-group">
+                    <label for="email"> Escribe tu email </label>
+                    <input type="Email" name="Email_user" id="Email"
+                    required>
+                </div>
+                <div class="control-group">
+                    <label for="Password"> Escribe tu contraseña </label>
+                    <input type="password" name="Password_user" id="Password">
+                </div>
+
+
+
+
+            </fieldset>
+            <fieldset>
+                <legend> Otros datos
+
+                </legend>
+                <textarea name="Datos" id="Datos" cols="30" rows="10" placeholder="No te molestes en escribir nada"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Datos academicos</legend>
+                
+                <div class="Check-Group">
+
+                    <input type="Checkbox" name="isOk" id="isOk">
+                    <label for="isOk">Estoy de acuerdo</label>
+                </div>
+                <div class="Check-Group">
+
+                        <legend>¿Que turno prefieres?</legend>
+                        <input type="radio" name="Turno" id="mañana" value="Mañana" checked="checked">
+                        <label for="mañana">Mañana</label>
+                        <input type="radio" name="Turno" id="tarde" value="Tarde"> 
+                        <label for="tarde">Tarde</label>
+                    </div>
+                    <div class="control-group">
+                        <label for="curso"> Selecciona tu curso</label>
+                        <select name="curso" id="Curso" size="3">
+                            <option value="Desfront"> Desarrollo Front</option>
+                            <option value="Disweb"> Diseño Web</option>
+                            <option value="ServNode"> Servidores Node</option>
+                            <option value="BBDD"> Bases de datos</option>
+                        </select>
+
+                    </div>
+                   
+            </fieldset>
+            <button type: "submit"> Enviar </button>
+            <input type="hidden" name="state" value="0">
+
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>
