@@ -1,0 +1,70 @@
+*, 
+*::before, *::after, 
+*:before, *:after { 
+box-sizing : border-box;
+}
+body{
+    background-image: url("./assets/fondo-celeste.png");
+    background-color: turquoise;
+
+}
+
+container{
+    width: 100%;
+    overflow:hidden;
+}
+    header  {
+    height:10rem;
+    background-image: url("./assets/Cabecera.jpg");
+    color: antiquewhite;
+    font-family: cursive;
+    height: 300px;
+  width: 80%;
+    margin:5%;
+    background-repeat: no-repeat;
+    
+    
+    }
+aside {
+    width:40%;
+    float:right;
+    padding: rem;
+
+}
+    
+    main {
+        font-family: 'Slabo 27px', serif;
+    margin: 5%;
+    
+
+    }
+table {border: 0.5rem dotted gray;}
+
+footer {
+    text-align: center;
+    padding:2rem;
+    margin:2rem;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+div.gas {
+width: 50%;
+    border:0.1rem solid transparent;
+    padding:2%;
+  
+    float:right;
+
+}
+div.art {
+    width:45%;
+    float:right;
+    border:0.1rem solid transparent;
+    clear:left;
+    overview:hidden;
+    padding:2%;
+  
+}
+
