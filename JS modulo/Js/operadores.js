@@ -68,7 +68,7 @@ y = 'def'
 console.log(x < y) //valora el orden alfabetico
 
 
-console.log(x.lenght === y.leght)
+console.log(x.lenght === y.leght) //valora las longitudes
 
 
 
@@ -81,4 +81,32 @@ let edad = 12
 
 console.log(edad > 30 ? 'buenos dias' : 'Hola chaval')
 
+
+
+
+
+// Operadores logicos
+
+let a = 12
+let b = 2
+let c = 4
+
+
+if ( a > b || a < z)
+console.log('comprobando')
+
+if( a < b && a < c ) {
+    console.log("Combrobado")
+}
+
+{
+let a = {valor : 5}
+
+if (a.valor === 5) {
+    console.log('comprobado 5')
+}
+}
+
+
+console.log(2 * 4 + 5)
 

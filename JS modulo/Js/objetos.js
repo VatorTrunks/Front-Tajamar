@@ -27,7 +27,7 @@ console.log(user)
 
 // Array
 
-let adatos=[12, 34, 23, 45,45, 87]
+let aDatos=[12, 34, 23, 45,45, 87]
 let adatosChungo=[12,'pepe', null, true, undefined]
 console.log(aDatos)
 console.log(aDatos[1])
