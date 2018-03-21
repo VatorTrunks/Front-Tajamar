@@ -1,9 +1,10 @@
-let aDatos = [23, 54, 67, 89, 39, 48]
+let a = [50, 100, 50, 100, 50, 100]
 
 
-function calculoMedia (n) {
-    for (let i = 0; i < array.length.aDatos; i++) {
-        r = ;
-        
-    }
-}
+let total = a.reduce((prev, item) => prev += item)
+
+let media = total / a.length
+
+ let mensaje = 'La media aritmetica es '+ media
+console.log(mensaje)
+

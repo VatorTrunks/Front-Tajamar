@@ -22,3 +22,7 @@ console.log(calcular(n, function () {
 setTimeout(calcularCubo, 2000 )
 
 
+
+
+
+
