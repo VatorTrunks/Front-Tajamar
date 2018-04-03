@@ -9,12 +9,13 @@ let libro1 = {
     generos: ['Fantasia'],
 }
 
-mostrarReferencia = function () {
+mostrarReferencia() {
     let ref = this.autor + ', '
     ref += ','
     ref += this.editorial +', '
     +this.fecha.getFullYear() + ', '
     console.log(ref)
+}
 }
 /* //this es el objeto global del programa
 let miFuncion = function (){

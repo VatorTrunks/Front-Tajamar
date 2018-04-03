@@ -1,0 +1,22 @@
+
+
+*, *::after, ::before, *:after, *:before {
+    box-sizing: border-box
+}
+
+body {
+background-color: bisque;
+margin: 3rem;
+}
+
+main {
+    min-height: 60vh;
+}
+main button{
+    color:maroon;
+}
+main div {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+
+}
